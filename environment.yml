@@ -16,6 +16,8 @@ dependencies:
   - torchmetrics
   - mlflow>=2
   - pyyaml
+  - ipykernel
+  - tqdm
   
   # Dev dependencies
   - ipython
