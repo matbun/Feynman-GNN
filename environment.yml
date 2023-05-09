@@ -17,7 +17,11 @@ dependencies:
   - mlflow>=2
   - pyyaml
   - ipykernel
+  - ipywidgets
   - tqdm
+  - scikit-learn
+  - matplotlib
+  - seaborn
   
   # Dev dependencies
   - ipython

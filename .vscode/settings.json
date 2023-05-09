@@ -1,6 +1,7 @@
 {
     "cSpell.words": [
-        "CUDA"
+        "CUDA",
+        "feygnn"
     ],
     "python.linting.flake8Enabled": true,
     "python.linting.enabled": true,

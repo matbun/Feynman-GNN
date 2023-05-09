@@ -21,3 +21,7 @@ conda run -p ./.venv python -m pip install --no-deps -e .
 # Activate env
 conda activate ./.venv
 ```
+
+## Usage
+
+Apparently, the latest version of the notebook to generate the dataset is: `./Notebooks/dataset_builder_v3_0.ipynb`.

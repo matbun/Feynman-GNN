@@ -1,0 +1,12 @@
+# Configuration for global variables
+dataset_root: data
+raw_dataset_root: data/raw
+
+datasets:
+  QED_data_e_annih_mu_no_global: QED_data_e_annih_mu_no_global.csv
+  QED_data_e_annih_mu: QED_data_e_annih_mu.csv
+  QED_data_e_annih_e: QED_data_e_annih_e.csv
+  QED_data_e_annih: QED_data_e_annih.csv
+  QED_data_e_annih_mu_old: QED_data_e_annih_mu_old.cvs
+
+ml_logs: mlruns
