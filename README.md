@@ -7,6 +7,7 @@ Ref: [Learning Feynman Diagrams using Graph Neural Networks](https://arxiv.org/p
 Requirements:
 
 - Mamba: [Installation guide](https://mamba.readthedocs.io/en/latest/installation.html) (suggested Mambaforge).
+- VS Code, for code editing
 
 Install the virtual environment. As of now, we use CPU only, but it is easily extendable to CUDA support.
 
