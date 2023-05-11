@@ -50,7 +50,7 @@ That notebook has been "prettified" and saved as `Train_Feynman_GNN.ipynb.ipynb`
 To visualize ML logs, run Tensorboard from command line (updated instructions in the notebook):
 
 ```bash
-tensorboard --logdir mlruns --host localhost --port 8888
+conda run -p ./.venv tensorboard --logdir mlruns --host localhost --port 8888
 ```
 
 And visualize them from the browser at [http://localhost:8888](http://localhost:8888).
