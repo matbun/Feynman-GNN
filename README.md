@@ -15,12 +15,8 @@ Requirements:
 Install the virtual environment. As of now, we use CPU only, but it is easily extendable to CUDA support.
 
 ```bash
-# Install dependencies
-mamba env create -p ./.venv --file environment.yml
-conda activate ./.venv
-
-# Install feygnn package
-conda run -p ./.venv python -m pip install --no-deps -e .
+# Create and setup python env: install dependencies and feygnn package
+make
 
 # Activate env
 conda activate ./.venv
@@ -37,7 +33,7 @@ Apparently, the latest version of the notebook to generate the dataset is: `./No
 That notebook has been "prettified" and saved as `Dataset_generator.ipynb`. You can execute it quickly from CLI with:
 
 ```bash
-conda run -p ./.venv jupyter nbconvert --to notebook --stdout --execute Dataset_generator.ipynb
+make datagen
 ```
 
 Alternatively, you can open the notebook and execute it cell-by-cell.
