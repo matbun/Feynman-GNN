@@ -1,0 +1,11 @@
+{
+    "cSpell.words": [
+        "CUDA",
+        "feygnn",
+        "Tensorboard"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "editor.formatOnSave": true,
+    "notebook.output.textLineLimit": 200,
+}
