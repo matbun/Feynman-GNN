@@ -2,6 +2,8 @@
 
 Reference: [Learning Feynman Diagrams using Graph Neural Networks](https://arxiv.org/pdf/2211.15348.pdf)
 
+Train a Graph Neural Network to predict the matrix element (probability) of Feynman diagrams.
+
 ## Installation
 
 Requirements:
